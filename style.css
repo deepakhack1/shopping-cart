@@ -19,7 +19,7 @@
 .para1
 {
     text-align-last: left;
-    font-size:large;
+    font-size:small;
     font-family: Roboto, Arial, sans-serif;
      /*margin-top: 80px;*/
     /*text-align: center;*/
@@ -27,6 +27,8 @@
     /*vertical-align: middle;*/
   /*//  letter-spacing: 0;*/
     line-height: 50px;
+    margin-top: 10px;
+    margin-left: -55px;
 }
 .para2
 {
@@ -36,6 +38,7 @@
     color: white;
     text-decoration: none;
     margin-left: 30px;
+    margin-top: 10px;
 }
 .para3
 {
@@ -45,6 +48,7 @@
     text-decoration: none;
     margin-left: 30px;
     cursor: pointer;
+    margin-top: 10px;
 }
 #main-header
 {
