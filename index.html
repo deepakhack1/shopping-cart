@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>shopping cart</title>
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="app.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<div id="wrapper">
+    <div id="header">
+        <div id="subheader">
+            <div id="container">
+            <span class="para1">India's Fastest Online Shopping Destination</span>
+
+            <span class="para2">Gift Cards</span>
+            <span class="para2">Help Center</span>
+            <span class="para2">Sell on dcart</span>
+            <span class="para2">call us</span>
+            <span class="para3"    onclick="appshows()">download app</span>
+            <img  class="para3" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHMSURBVGhD7dq9LgRRAIbhpfAXohaJWsIFKCRaiZAQjRvQiGtQUGi0uAeNRpBIBOEOFGpRKYQGhZ/3292RzeTMzjk7s7vnjPmSJ9hdiTdZa3ZGpVy5crlvB7sYqX4V4IbqHwdwikcs6obQtof52qd/MT84whiC2T7eYYp5wTp64P0Uoh86KUauMQmvF4WYYs4Q3feBLfTByzWGpMXIPWbh3eIhkhbzhQOMwpuZQiQtRp6wAi+WFCI2MXKMcXR1zULENuYVG+hFV5YWIrYxcodpdHw2IeIS84lt6HEdm22IuMTIA+bQkbmEiGvMNw7R9sMc1xBxfZqtQuuvf2zLWgkRmxhFLEMbxg1OMKEb8l6rIaLjr6QYRSxB03ueK0T3vWETub5UZwkRU4wiFnQDU8QlTN97iynksqwhEo+ZqX1ajbiA6Xsiil5D5uURIo0x2iDOYXps3DMyv6qVIQ0K8dQqxC+7KSK6L5iX30L8QSzEIUohDhpdI7w8jHd9Onn5xsolwtu3urYRXp98sI3w+nSQTYT3J+jSIoI4ZZoWEcRJ7GYROq4K4rJCPCLICz1JEUFdeivMxVC9V9CiiGAvT0fTsVHQ/zBQrtz/W6XyC5ppfmKg0Vt0AAAAAElFTkSuQmCC">
+            <img class="para3" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJOSURBVGhD7dlNiE1xGMfxOzFSMpTXUuM1RhorLCk1smJpLFBioQxRNmYzjfIWIWUhmoXFhPGyMDZelrLwUsrGTtI0k5iaCDF8f5ozczs9k+E855k5dX71abq3uec5/+4553//z79SpsxwlqIND9CuN4qWZbiNQfwachWFSjO+IBlA4jAKkz2o/hYSeq8BhcgafEN6EHIDhckjWIPowwIUIsthDaIf61GY7EV6EK+xGoXKPiQDeIkWTMaESS02Qid6dOjvWtSgOouxAQv/vBrJNGzDWVzDRezGfIRkNs7hI6ovl8RbnMAqWFmC89A9Yn3+KzRBNiK37MBoJ2B5jmPYiYO4ix+w/jdN88tlzIRrTsIqmLc3WAmXHIFVJEovViBTNmGsl0Oe7uG/Mwl65lsHjvICTUg/Df8purmtg0e5Aj3mM+cZrAIRbiLTt5BEE5lVIMInzIJLdsEqEuEM3HIaVpEIrr+Kb8EqEmEu3HIfVpEIM+CWh7CKRHBdNd6BVSTCZrjlAqwiES7BLWrfWEUiDMBtHqmHVSSKa/fxFawiUQ7AJcdhFYik+yXzKlEN55+wCkT6AK1QM+U6rINHU8MiU9TisQ4cSX1jl0myE1aBKGo/uWQeRutj5a0HdXDLeE2Q2+GeDljF8tKFXDIFT2AV9fYObj9TrMxB3k2Jz1iH3DMdj2GdRFbfsQVh0WXWCmuXVh117Q1uhZ7/U6FVn3q4+/EU6c/Ie2irYlyyCNpG0NJYN+chaOvhb9GO1Sl0Q/0Bfc51iVumTJkyEzWVym9KI9MsGamx5QAAAABJRU5ErkJggg==">
+
+</div>
+        </div>
+
+<div id="main-header">
+    <div id="logo">
+
+     <span id="ist">Dcart</span><span id="iist">.com</span>
+   </div>
+    <div id="search">
+        <form action="">
+            <input class="searches" type ="text" name="text" placeholder="Search for products and Brand and More">
+            <input class="submit1" type="submit" name="submit" value="search">
+        </form>
+
+    </div>
+
+
+    <div id="main-menu">
+
+
+
+        <li>login</li>
+        <i  class="fa fa-shopping-cart" style="font-size:48px;color:red;margin-left:195px;margin-top: -10px "></i>
+        <li >Cart</li>
+
+    </div>
+    </div>
+    </div>
+
+</div>
+</body>
+</html>
