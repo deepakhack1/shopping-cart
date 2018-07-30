@@ -5,8 +5,9 @@
 }
 #container
 {
-    width: 90%;
+    width: 100%;
     margin:0 auto;
+    max-width: 1280px;
 
 }
 #subheader
@@ -230,8 +231,10 @@ nav a:hover
 {
     width: 235px;
     height: 300px;
+    margin: 10px 23px 10px 0px;
     overflow: hidden;
     position: relative;
+    float: left;
 }
 .prod-box>img
 {
@@ -256,4 +259,41 @@ nav a:hover
     opacity: 1;
     transition: all .5s ease;
 
+}
+.prod-feature
+{
+    text-align: center;
+    margin-top: -150px;
+    transition: all .5s ease;
+}
+.prod-feature p
+{
+    color: gold;
+    font-weight:bold;
+}
+.prod-box :hover .prod-feature
+{
+    margin-top: 150px;
+    transition: all .5s ease;
+}
+.offer
+{   margin-top: -50px;
+    float: left;
+    width: 400px;
+
+}
+.offer img
+{
+    width: 100%;
+}
+#footer
+{
+    width: 100%;
+    height: 300px;
+    background: cyan;
+    float: left;
+}
+.footer-sub
+{
+    width: 25%;
 }
